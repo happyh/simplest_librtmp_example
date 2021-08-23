@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "simplest_librtmp_send264", "simplest_librtmp_send264\simplest_librtmp_send264.vcxproj", "{E146E4F1-919B-4CE8-8E0F-09B66F99076A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EEB58AD4-7225-43CB-823A-982F5ACB317D} = {EEB58AD4-7225-43CB-823A-982F5ACB317D}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "simplest_librtmp_send_flv", "simplest_librtmp_send_flv\simplest_librtmp_send_flv.vcxproj", "{75A72D14-C5F7-412C-BA36-9DBC8DEA5410}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "simplest_librtmp_receive", "simplest_librtmp_receive\simplest_librtmp_receive.vcxproj", "{F11AD463-27D7-440A-801A-EFD77272F2F8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "librtmp", "librtmp\librtmp.vcxproj", "{EEB58AD4-7225-43CB-823A-982F5ACB317D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "flv2h264", "flv2h264\flv2h264.vcxproj", "{D69A1E63-3E39-4962-8729-29C0C4A83C59}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E146E4F1-919B-4CE8-8E0F-09B66F99076A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E146E4F1-919B-4CE8-8E0F-09B66F99076A}.Debug|Win32.Build.0 = Debug|Win32
+		{E146E4F1-919B-4CE8-8E0F-09B66F99076A}.Debug|x64.ActiveCfg = Debug|Win32
+		{E146E4F1-919B-4CE8-8E0F-09B66F99076A}.Release|Win32.ActiveCfg = Release|Win32
+		{E146E4F1-919B-4CE8-8E0F-09B66F99076A}.Release|Win32.Build.0 = Release|Win32
+		{E146E4F1-919B-4CE8-8E0F-09B66F99076A}.Release|x64.ActiveCfg = Release|Win32
+		{75A72D14-C5F7-412C-BA36-9DBC8DEA5410}.Debug|Win32.ActiveCfg = Debug|Win32
+		{75A72D14-C5F7-412C-BA36-9DBC8DEA5410}.Debug|Win32.Build.0 = Debug|Win32
+		{75A72D14-C5F7-412C-BA36-9DBC8DEA5410}.Debug|x64.ActiveCfg = Debug|Win32
+		{75A72D14-C5F7-412C-BA36-9DBC8DEA5410}.Release|Win32.ActiveCfg = Release|Win32
+		{75A72D14-C5F7-412C-BA36-9DBC8DEA5410}.Release|Win32.Build.0 = Release|Win32
+		{75A72D14-C5F7-412C-BA36-9DBC8DEA5410}.Release|x64.ActiveCfg = Release|Win32
+		{F11AD463-27D7-440A-801A-EFD77272F2F8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F11AD463-27D7-440A-801A-EFD77272F2F8}.Debug|Win32.Build.0 = Debug|Win32
+		{F11AD463-27D7-440A-801A-EFD77272F2F8}.Debug|x64.ActiveCfg = Debug|Win32
+		{F11AD463-27D7-440A-801A-EFD77272F2F8}.Release|Win32.ActiveCfg = Release|Win32
+		{F11AD463-27D7-440A-801A-EFD77272F2F8}.Release|Win32.Build.0 = Release|Win32
+		{F11AD463-27D7-440A-801A-EFD77272F2F8}.Release|x64.ActiveCfg = Release|Win32
+		{EEB58AD4-7225-43CB-823A-982F5ACB317D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EEB58AD4-7225-43CB-823A-982F5ACB317D}.Debug|Win32.Build.0 = Debug|Win32
+		{EEB58AD4-7225-43CB-823A-982F5ACB317D}.Debug|x64.ActiveCfg = Debug|Win32
+		{EEB58AD4-7225-43CB-823A-982F5ACB317D}.Release|Win32.ActiveCfg = Release|Win32
+		{EEB58AD4-7225-43CB-823A-982F5ACB317D}.Release|Win32.Build.0 = Release|Win32
+		{EEB58AD4-7225-43CB-823A-982F5ACB317D}.Release|x64.ActiveCfg = Release|Win32
+		{D69A1E63-3E39-4962-8729-29C0C4A83C59}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D69A1E63-3E39-4962-8729-29C0C4A83C59}.Debug|Win32.Build.0 = Debug|Win32
+		{D69A1E63-3E39-4962-8729-29C0C4A83C59}.Debug|x64.ActiveCfg = Debug|x64
+		{D69A1E63-3E39-4962-8729-29C0C4A83C59}.Debug|x64.Build.0 = Debug|x64
+		{D69A1E63-3E39-4962-8729-29C0C4A83C59}.Release|Win32.ActiveCfg = Release|Win32
+		{D69A1E63-3E39-4962-8729-29C0C4A83C59}.Release|Win32.Build.0 = Release|Win32
+		{D69A1E63-3E39-4962-8729-29C0C4A83C59}.Release|x64.ActiveCfg = Release|x64
+		{D69A1E63-3E39-4962-8729-29C0C4A83C59}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
